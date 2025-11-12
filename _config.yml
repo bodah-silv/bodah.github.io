@@ -1,0 +1,7 @@
+title: Your Name
+description: Personal site & notes
+theme: minima
+author: Your Name
+url: https://yourusername.github.io
+# Optional: show excerpts on the home page
+show_excerpts: true
