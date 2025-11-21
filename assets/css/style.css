@@ -1,7 +1,25 @@
-.badge {
-  background: #eee;
-  padding: 2px 6px;
-  border-radius: 6px;
-  font-size: 0.8rem;
-  color: #444;
+.contact-icons {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin: 8px 0 4px;
+}
+
+.contact-icons .icon {
+  width: 26px;
+  height: 26px;
+  fill: currentColor;
+  transition: transform 0.12s ease, opacity 0.12s ease;
+  opacity: 0.9;
+}
+
+.contact-icons a {
+  color: inherit;            /* use theme text color */
+  text-decoration: none;
+}
+
+.contact-icons a:hover .icon,
+.contact-icons a:focus .icon {
+  transform: translateY(-1px);
+  opacity: 1;
 }
