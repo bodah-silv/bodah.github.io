@@ -8,7 +8,7 @@ permalink: /research/
 <!-- Optional hero image -->
 <!-- <img src="{{ site.baseurl }}/assets/img/projects/visuotactile_hero.jpg" alt="Visuo-tactile sensor" width="900"> -->
 
-I am building a </strong>new visuo–tactile</strong> stack that renders frames completely black before touch—eliminating ambient-light artifacts—and, upon contact, simultaneously captures both </strong>tactile</strong> deformation and overlaid </strong>color/text</strong> from the object. This design stays reliable on very </strong>soft/low-stiffness</strong> materials (e.g., water droplets, facial cream, thin plastic film) where prior sensors degrade. A lightweight cv2 pipeline (ROI/contours and feature extraction) turns raw frames into stable contact patches, and a VLM uses color cues to sort resistors by code with <strong>82%</strong> end-to-end accuracy. I led the sensor design, software pipeline, and robustness evaluation.
+I am building a <strong>new visuo–tactile</strong> stack that renders frames completely black before touch—eliminating ambient-light artifacts—and, upon contact, simultaneously captures both <strong>tactile</strong> deformation and overlaid <strong>color/text</strong> from the object. This design stays reliable on very <strong>soft/low-stiffness</strong> materials (e.g., water droplets, facial cream, thin plastic film) where prior sensors degrade. A lightweight cv2 pipeline (ROI/contours and feature extraction) turns raw frames into stable contact patches, and a VLM uses color cues to sort resistors by code with <strong>82%</strong> end-to-end accuracy. I led the sensor design, software pipeline, and robustness evaluation.
 
 ---
 
