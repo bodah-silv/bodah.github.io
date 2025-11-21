@@ -1,2 +1,31 @@
-/* Optional custom styles; Minima already looks nice. */
-.page-content { max-width: 860px; }
+/* --- Contact icons sizing / layout override --- */
+.contact-icons {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;              /* button size */
+  height: 36px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-icons svg,
+.contact-icons .icon {
+  width: 22px !important;   /* actual icon size */
+  height: 22px !important;
+  max-width: none !important;
+  display: inline-block !important;
+  fill: currentColor;
+}
+
+.contact-icons a:hover .icon,
+.contact-icons a:focus .icon {
+  transform: translateY(-1px);
+}
