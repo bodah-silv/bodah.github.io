@@ -10,22 +10,21 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 36px;              /* button size */
-  height: 36px;
+  width: 28px;            /* clickable area */
+  height: 28px;
   text-decoration: none;
   color: inherit;
 }
 
-.contact-icons svg,
-.contact-icons .icon {
-  width: 10px !important;   /* actual icon size */
-  height: 10px !important;
+/* Beat theme rules and any inline width/height on <svg> */
+.contact-icons a svg.icon,
+.contact-icons a .icon,
+.contact-icons a svg[width],
+.contact-icons a svg[height] {
+  width: 14px !important;   /* <- change this number to the size you want */
+  height: 14px !important;
   max-width: none !important;
+  max-height: none !important;
   display: inline-block !important;
   fill: currentColor;
-}
-
-.contact-icons a:hover .icon,
-.contact-icons a:focus .icon {
-  transform: translateY(-1px);
 }
