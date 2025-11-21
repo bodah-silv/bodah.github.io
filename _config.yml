@@ -7,10 +7,10 @@ markdown: kramdown
 kramdown:
   input: GFM
 minima:
-  skin: auto
   social_links:
-    - { platform: github,  user_url: "https://github.com/bodah-silv" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/boda-huo" }
+    - { platform: github,   user_url: "https://github.com/bodah-silv" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/boda-huo-a795781a1/" }
+
 # _config.yml (or _data/navigation.yml)
 nav:
   - text: Home
