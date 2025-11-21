@@ -9,7 +9,6 @@ permalink: /research/
 - On contact, captures **tactile deformation** *and* overlaid **color/text** cues, providing richer information than prior baselines.
 - Demonstrated robust contact detection/feature extraction on **very soft materials** (water droplets, facial cream, thin plastic film).
 - Integrated with a VLM to **sort resistors by color codes**, achieving **82%** end-to-end accuracy.
-- Built the cv2 pipeline (ROI/contours) and robustness evaluation harness.
 
 ---
 
